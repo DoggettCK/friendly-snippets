@@ -127,7 +127,7 @@
             "${1:doc}",
             "\"\"\"",
             "@spec ${2:name}(${3:args}) :: ${4:no_return}",
-            "def $2{5:args} do",
+            "def $2${5:args} do",
             "  $0",
             "end"
         ]
